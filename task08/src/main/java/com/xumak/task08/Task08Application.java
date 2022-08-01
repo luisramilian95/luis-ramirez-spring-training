@@ -1,13 +1,13 @@
-package com.xumak.task05;
+package com.xumak.task08;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Task05Application {
+public class Task08Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Task05Application.class, args);
+		SpringApplication.run(Task08Application.class, args);
 	}
 
 }

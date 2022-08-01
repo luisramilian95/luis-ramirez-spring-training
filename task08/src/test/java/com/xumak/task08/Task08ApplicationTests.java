@@ -1,10 +1,10 @@
-package com.xumak.task05;
+package com.xumak.task08;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Task05ApplicationTests {
+class Task08ApplicationTests {
 
 	@Test
 	void contextLoads() {
