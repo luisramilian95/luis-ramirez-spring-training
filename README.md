@@ -12,7 +12,7 @@
 - Clone the repo
 
 ```sh
-git clone https://github.com/luisramilian95/luis-ramirez-spring-training
+git clone https://github.com/luisramilian95/luis-ramirez-spring-training.git
 ```
 
 ## Task 01
