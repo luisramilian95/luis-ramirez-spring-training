@@ -84,6 +84,7 @@ cd task08 && gradle clean bootRun
 A spring application that uses flyway.
 
 ```sh
+docker-compose -f task11/docker-compose.yml up --build
 cd task09 && gradle clean bootRun
 ```
 
