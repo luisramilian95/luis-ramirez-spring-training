@@ -10,14 +10,13 @@ import java.util.Optional;
 public class CustomerService {
 
     @Autowired
-    CustomerRepository repository;
+    CustomerDAO dao;
 
     public Customer getById(Long id) {
-        Optional<Customer> customer = (repository.findById(id));
-        return customer.orElse(null);
+        return (dao.findById(id));
     }
 
     public List<Customer> getByName(String lastName) {
-        return repository.findByLastName(lastName);
+        return dao.findByLastName(lastName);
     }
 }
