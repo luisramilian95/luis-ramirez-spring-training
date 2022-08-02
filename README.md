@@ -96,6 +96,8 @@ A basic UI with the application REST specification
 cd task10 && gradle clean bootRun
 ```
 
+Go to [swagger-ui](http://localhost:8080/api-docs.html)
+
 ## Task 11
 
 A postgres local environment using docker.
